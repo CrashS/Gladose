@@ -18,3 +18,4 @@ for item in numbers:
     newitem = insert_sting_middle(newitem,'result = ', 0)
     exec(newitem)
     if(result is 100):
+        print(newitem)
